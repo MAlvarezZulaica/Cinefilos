@@ -1,0 +1,336 @@
+<!DOCTYPE html5>
+
+<head>
+    <title>Cinéfilos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link type="image/x-icon" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAGHUlEQVRYR9VXa2xU1RZea+29T4vtvDtTLz5+mGgiYnyh0DkzBdFgxEcEbFQUFRvBCBiKJaIFKS1olRpQfIIGCZSoqBjLI4IxcOZhfcYQH1G813DJVTudaacPtHRmzro5Q6dSW+mAP4gnmcxkv9Z3vrX2961BOM0Pnub48M8BEK8su4oUToIC6kGEb51rwwYCmH+Xwb9kgGuBEgf13aBwCgoAlhxjxE+FRJMVXEUCzgQJgAI+da4KjT9VIMMCiFcEtoHgW0HyEyVbojW5wxNzx49BFOR+Ofp1bqzz0cBSVlSPAlocy42ykwUyBEDbNH+GJRzwbYteFqu48kwq0r5BgW7rbZm4DyWaKLHwGCvQQ8CXOBvC/+msDUZAod+eMgTW5p+aQQBiN+kMipf53o2ubLvd34oSfazwJu/G8I7h3ixZHbgWCnAvC+hy1YUcnSv1hSjFGvsSqzzyewYWtk71H0Fhvu5rbpnXVqEzEezyvBm5IXdMfI5+FCVqKAFAYNq1JlSQK8Lk8vImFDDTbhqiSytfgQoesy82RD4QsgBiUybUs6A5pbujpW3TdEaReaTk7ZanB4JX6keQ4CnPhkidNdZeFXgQBT7ragyp3Jpk3cQ5KPgVR42BXY3l3wPBRvsio2EkEP0A/Ozt01S8KLWbFZ/hey+qH78xURlgz2vhQbR2VAfZ1RgaNNZZH9hNiny2JcYV3Wsmsq1q/4ipwNZr/ItQ8P2+PR9faNWArzkyZFO+ACzQXQ3lbOtNFPQ4PHtJpZuK5kfXn4gF/PVq/+9CYpAVzwJJo33vhyuyNFcEzk2r1Fjf1k92JSr1QyDgc8/6yAxrrmNRcAMgT3c9E/Z0LLzUiTb7FGe98ZY11/1kcB1o6M6QuUxK82DxgugJawFbJ/u59KMoxqbqrDTlcr23L2kVIRKkQcIPoHAMCJjHEh4mAedZRcgCf/WsCf2rfUmwmwQUg8DPUcI4ELDVnqJ7uos5Za/ejz3P61w8fyijxzMyCIBvVwTbbtH/BxLe8r4dqRoQoGFrILAJJF7qaghdMiBKq8oZC8gLwG2nDmCazt7tg1EnKgOHSdKdpjD3Wwy4nwujVYSpYmHz1e7rGQBQH9xMig6yhBU5AEVxNQpr9/X+VR0MZWCazql0b9Ho5i9+O56BTFeHTfrcTUxmoWdd5Lr26uBhkljpbDD2DFzFVYF/I/IC1OTOU2YgNmP8VCS5k7S0w9P0SVf83sB2FHAjZaTXLOxbDQql0tRiPKJR2vl7K4E439Gw78fOuuDjIHDFMR2YyCcNoPV6/08kuMa74+OtiVv9U1jiB5b+mwIPSA1qmKCZBTxNEkwQuAQA78SCvigK9RMItFwx7lhueLuf9E82ldzmqDY8eRVhbHJZM0j4GkjsZMl7S3dERv05X5YOHI25ikY3N2fTwpNAJscFU38WImuusyGYICnmImbOBo3vKF4QPqFVY8ekSc6U1tfh2xNFS4ik5Ivd2/+wW+vQfIWovTZwriykQ5YZWUpIMn1W0YLIzycUomNeUHYYBD1FsvdDloXfDXML2H1OeJDNDivFq8qZJV1JkDkbFb5pW2QU5OUFWRBTdW47lCzwXWB/CCStLrkoMhAwXqnPR4nrQPJtTJAmSe8g4TLXM8bKgStYV85M3OhcGlpsFWFGdLpcVV8l8wbQekPgQSR+wfKC2PQJ95ImNoLKzC7Z3PJ6Ng2zx4/hUXITSZZEZqVzbcuXWVleWj4dCd5BmalyPB5Za3kBSnOerTr84kjBrflBxtN6s/8uEriZO5I28HoBtdQvqLAYBb+LSCvcr4YOZH3iIf9Y0vBRljQTBfRmuvpK3Z6e3i7lOYoS1tsfMebmE3wIAGugbYY+Dgg+Q8FbSt6IzrKa0/b/BlazgjkooDjrBQS/kaRXnY1GldWUJJcHX0KBD4DgWY6a0JZ8gw8LILc5frveBBJmssAfSKPZng1G9PiDkwsnXG4Wik0kaKwp4Ft3XeiikwmcWztiw5C4u+w+kDQbFAZAAPS3ZJbwQH9bbrVo/ePZNh1AZoUJUKWtNB77qL7+37lva7zvH/TP6FTozWfPiCnI55C/s+a0A/g/yAyWDe74BxYAAAAASUVORK5CYII=">
+    <script src="js/modal.js"></script>
+</head>
+
+<body>
+    <div id="navbar">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="/C:/xampp/htdocs/cinefilos/index.html">
+                        <li><img src="css/images/iconos/casa.png">Inicio</li>
+                    </a>
+                    <a href="donde-estoy.html">
+                        <li><img src="css/images/iconos/pregunta.png">¿Dónde estoy?</li>
+                    </a>
+                    <a href="https://www.pelispedia.tv/" target="_blank">
+                        <li><img src="css/images/iconos/pelispedia.png">PelisPedia</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="contenedor">
+        <hr id="separador-head" style="height:1px">
+        <div id="contacto">
+            <a href="martin.html"><img src="css/images/iconos/hombre.png"> MARTÍN</a> |
+            <a href="participa.html"><img src="css/images/iconos/silla.png"> PARTICIPÁ</a> |
+            <a href="suscripcion.html"><img src="css/images/iconos/contacto.png"> CONTACTO</a> |
+            <a href="https://www.facebook.com/"><img src="css/images/iconos/facebook.png"></a> |
+            <a href="https://www.instagram.com/"><img src="css/images/iconos/instagram.png"></a> |
+            <a href="https://twitter.com/"><img src="css/images/iconos/twitter.png"></a>
+        </div>
+        <div id="header">
+            <img src="css/images/logo.png" align="right" height="32" width="155" alt="Cinéfilos: tu sitio de reseñas">
+        </div>
+        <hr id="separador" style="height:1px">
+        <div class="ver">
+            <a href="peliculas.html"><img src="css/images/iconos/ver.png"></a>
+        </div>
+        <div class="head">
+            <h2>ÚLTIMAS PELÍCULAS</h2>
+            <br>
+        </div>
+        <div class="box">
+            <div class="movie">
+                <img src="css/images/movie1.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>GLADIADOR</p>
+                    <br>
+                    <a onclick="mostrarModal(ventanaGladiador)" class="puntuacion">Ver puntuación</a>
+                </div>
+                <div id="ventanaGladiador" class="puntuacionesPeli">
+                    <div class="modal-content">
+                        <img onclick="cerrarModal(ventanaGladiador)" id="cerrar" src="css/images/iconos/salir.png">
+                        <h1>GLADIADOR</h1>
+                        <br>
+                        <h2>Año: (2000)<br>
+              Director: Ridley Scott.<br>
+              Actores: Russell Crowe, Joaquin Phoenix, Connie Nielsen.</h2>
+                        <br>
+                        <img id="cover" src="css/images/movie1.jpg">
+                        <p><b>Sinopsis:</b> Un general fugitivo se convierte en el gladiador más poderoso de Roma, y planea vengarse del emperador que lo traicionó.</p>
+                        <p>Es una espectacular recreación histórica de la Roma Imperial, un film de aventuras épicas con grandes batallas y gestas heróicas que lejos de exagerar un perfil de inmortal, te absorben con crudeza en cada combate. Con ese toque de ambición política, de intriga y venganza que cobra vida gracias a un reparto tanto de protagonistas como de secundarios que bordan sus personajes al son de una banda sonora increiblemente acertada, obra del galardonado Zimmer.</p>
+                        <br>
+                        <div id="mi-puntuacion">
+                            <h1>MI PUNTUACIÓN:</h1>
+                            <img src="css/images/estrellas/3-estrellas.png">
+                            <br>
+                        </div>
+                        <h2>OTRAS PUNTUACIONES:</h2>
+                        <br>
+                        <a href="https://www.imdb.com/"><h3>IMDb:</h3> <img src="css/images/estrellas/3-estrellas.png" width="100px" height="20px"></a>
+                        <br>
+                        <a href="https://www.rottentomatoes.com/"><h3>Rotten Tomatoes:</h3> <img src="css/images/estrellas/4-estrellas.png" width="100px" height="20px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/movie2.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>EX-MACHINA</p>
+                    <br>
+                    <a onclick="mostrarModal(ventanaMachina)" class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div id="ventanaMachina" class="puntuacionesPeli">
+                <div class="modal-content">
+                    <img onclick="cerrarModal(ventanaMachina)" id="cerrar" src="css/images/iconos/salir.png">
+                    <h1>EX-MACHINA</h1>
+                    <br>
+                    <h2>Año: (2014)<br>
+              Director: Alex Garland.<br>
+              Actores: Alicia Vikander, Domhnall Gleeson, Oscar Isaac.</h2>
+                    <br>
+                    <img id="cover" src="css/images/movie2.jpg">
+                    <p><b>Sinopsis:</b> Un joven programador que trabaja en una compañía de Internet es elegido para evaluar las capacidades y la conciencia de una hermosa y sofisticada robot.</p>
+                    <p>¿Qué es Ex machina? A primera vista es un cara a cara entre la inteligencia emocional (corrupta, malintencionada, lábil) y la artificial (en apariencia perfecta, virginal), en este caso entre un informático, un hombre de ciencia, y una androide de bellos rasgos y cuasibíblico nombre (Ava). Adán y Eva en un paraíso que es un juego (¿una broma? ¿una prueba?) más próximo a una cita a ciegas planteada con la cerebral ejecución de una partida de ajedrez.</p>
+                    <br>
+                    <div id="mi-puntuacion">
+                        <h1>MI PUNTUACIÓN:</h1>
+                        <img src="css/images/estrellas/4-estrellas.png">
+                        <br>
+                    </div>
+                    <h2>OTRAS PUNTUACIONES:</h2>
+                    <br>
+                    <a href="https://www.imdb.com/"><h3>IMDb:</h3> <img src="css/images/estrellas/4-estrellas.png" width="100px" height="20px"></a>
+                    <br>
+                    <a href="https://www.rottentomatoes.com/"><h3>Rotten Tomatoes:</h3> <img src="css/images/estrellas/3-estrellas.png" width="100px" height="20px"></a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/movie3.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>EL PADRINO</p>
+                    <br>
+                    <a onclick="mostrarModal(ventanaPadrino)" class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div id="ventanaPadrino" class="puntuacionesPeli">
+                <div class="modal-content">
+                    <img onclick="cerrarModal(ventanaPadrino)" id="cerrar" src="css/images/iconos/salir.png">
+                    <h1>EL PADRINO</h1>
+                    <br>
+                    <h2>Año: (1972)<br>
+              Director: Francis Ford Coppola.<br>
+              Actores: Marlon Brando, Al Pacino, James Caan.</h2>
+                    <br>
+                    <img id="cover" src="css/images/movie3.jpg">
+                    <p><b>Sinopsis:</b> Una adaptación ganadora del Premio de la Academia, de la novela de Mario Puzo acerca de la familia Corleone.</p>
+                    <p>Mucho se ha escrito sobre esta secuencia con varias líneas narrativas montadas en paralelo, que es, en justicia, una de las más famosas de la saga. Yo sólo añadiré que si hasta ahora Coppola, en esta última parte del filme, se había esforzado por construir pequeñas cápsulas temporales, en un contínuo muy veloz, de repente el tiempo se estira, se alarga y se condensa. Se ralentiza en una nueva liturgia de la muerte. Comenzamos con una boda bajo la cual se cerraban acuerdos sangrientos, y terminamos con un bautizo durante el cual se ejecutan a media docena de personas. Coppola va exprimiendo la tensión hasta que se desata una violencia infernal.</p>
+                    <br>
+                    <div id="mi-puntuacion">
+                        <h1>MI PUNTUACIÓN:</h1>
+                        <img src="css/images/estrellas/5-estrellas.png">
+                        <br>
+                    </div>
+                    <h2>OTRAS PUNTUACIONES:</h2>
+                    <br>
+                    <a href="https://www.imdb.com/"><h3>IMDb:</h3> <img src="css/images/estrellas/5-estrellas.png" width="100px" height="20px"></a>
+                    <br>
+                    <a href="https://www.rottentomatoes.com/"><h3>Rotten Tomatoes:</h3> <img src="css/images/estrellas/4-estrellas.png" width="100px" height="20px"></a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/movie4.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>50 - 50</p>
+                    <br>
+                    <a class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/movie5.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>ESPEJOS SINIESTROS</p>
+                    <br>
+                    <a class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/movie6.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>EL PRESTIGIO</p>
+                    <br>
+                    <a class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/movie7.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>BATMAN. EL CABALLERO OSCURO</p>
+                    <br>
+                    <a class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+        </div>
+        <hr id="separador" style="height:1px">
+        <div class="ver">
+            <a href="series.html"><img src="css/images/iconos/ver.png"></a>
+        </div>
+        <div class="head">
+            <h2>ÚLTIMAS SERIES</h2>
+            <br>
+        </div>
+        <div class="box">
+            <div class="movie">
+                <img src="css/images/serie1.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>FRIENDS</p>
+                    <br>
+                    <a onclick="mostrarModal(ventanaFriends)" class="puntuacion">Ver puntuación</a>
+                </div>
+                <div id="ventanaFriends" class="puntuacionesPeli">
+                    <div class="modal-content">
+                        <img onclick="cerrarModal(ventanaFriends)" id="cerrar" src="css/images/iconos/salir.png">
+                        <h1>FRIENDS</h1>
+                        <br>
+                        <h2>Año: (1994 - 2004)<br>
+              Temporadas: 10<br>
+              Actores: Jennifer Aniston, Courteney Cox, Lisa Kudrow.</h2>
+                        <br>
+                        <img id="cover" src="css/images/serie1.jpg">
+                        <p><b>Sinopsis:</b> narra las aventuras y desventuras de seis jóvenes de Nueva York. A pesar de los numerosos cambios que se producen en sus vidas, su amistad es inquebrantable en la dura batalla por salir adelante en sus periplos profesionales y personales.</p>
+                        <p>Friends una serie que nos brinda de todo: comedia, romances, angustia, tristezas, etc. Es para mi una de las series con mas éxito que ha existido hasta el momento, ver Friends para mi ha sido una experiencia maravillosa, ya que muchos hemos sido parte de la serie conocemos todo acerca de los personajes sabemos cuáles han sido sus parejas en toda la serie, sus temores, sus debilidades, sus aficiones.</p>
+                        <br>
+                        <div id="mi-puntuacion">
+                            <h1>MI PUNTUACIÓN:</h1>
+                            <img src="css/images/estrellas/3-estrellas.png">
+                            <br>
+                        </div>
+                        <h2>OTRAS PUNTUACIONES:</h2>
+                        <br>
+                        <a href="https://www.imdb.com/"><h3>IMDb:</h3> <img src="css/images/estrellas/3-estrellas.png" width="100px" height="20px"></a>
+                        <br>
+                        <a href="https://www.rottentomatoes.com/"><h3>Rotten Tomatoes:</h3> <img src="css/images/estrellas/4-estrellas.png" width="100px" height="20px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/serie2.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>WESTWORLD</p>
+                    <br>
+                    <a onclick="mostrarModal(ventanaWestworld)" class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div id="ventanaWestworld" class="puntuacionesPeli">
+                <div class="modal-content">
+                    <img onclick="cerrarModal(ventanaWestworld)" id="cerrar" src="css/images/iconos/salir.png">
+                    <h1>WESTWORLD</h1>
+                    <br>
+                    <h2>Año: (2016 - Actualidad)<br>
+              Temporadas: 2<br>
+              Actores:  Evan Rachel Wood, Anthony Hopkins, Ed Harris.</h2>
+                    <br>
+                    <img id="cover" src="css/images/serie2.jpg">
+                    <p><b>Sinopsis:</b> Westworld es un parque de atracciones futurista y controlado por alta tecnología. Las instalaciones cuentan con androides cuya apariencia física es humana, y gracias a ellos los visitantes pueden dar rienda suelta a sus instintos y vivir cualquier tipo de aventura o fantasía, por muy oscura o peligrosa que sea, sabiendo que los robots no les harán daño</p>
+                    <p>Es, desde luego, una serie muy sofisticada y muy bien planificada, quizás demasiado, ya que se le nota mucho cómo dosifica convenientemente los contenidos de violencia y sexo, por un lado, y las múltiples referencias, tanto literarias como cinematográficas, por otro. Westworld tiene algo de Frankenstein, bastante de Alicia en el País de las Maravillas, mucho de Blade Runner (Ridley Scott, 1982) y ciertos toques de El show de Truman (The Truman Show, Peter Weir, 1998) e incluso de Wayward Pines (2015-), por citar solo algunas. No haría falta señalar la influencia del cine de Christopher Nolan.</p>
+                    <br>
+                    <div id="mi-puntuacion">
+                        <h1>MI PUNTUACIÓN:</h1>
+                        <img src="css/images/estrellas/3-estrellas.png">
+                        <br>
+                    </div>
+                    <h2>OTRAS PUNTUACIONES:</h2>
+                    <br>
+                    <a href="https://www.imdb.com/"><h3>IMDb:</h3> <img src="css/images/estrellas/4-estrellas.png" width="100px" height="20px"></a>
+                    <br>
+                    <a href="https://www.rottentomatoes.com/"><h3>Rotten Tomatoes:</h3> <img src="css/images/estrellas/3-estrellas.png" width="100px" height="20px"></a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/serie3.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>DEXTER</p>
+                    <br>
+                    <a onclick="mostrarModal(ventanaDexter)" class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div id="ventanaDexter" class="puntuacionesPeli">
+                <div class="modal-content">
+                    <img onclick="cerrarModal(ventanaDexter)" id="cerrar" src="css/images/iconos/salir.png">
+                    <h1>DEXTER</h1>
+                    <br>
+                    <h2>Año: (2006 - 2013)<br>
+              Temporadas: 8<br>
+              Actores: Michael C. Hall, Jennifer Carpenter, David Zayas.</h2>
+                    <br>
+                    <img id="cover" src="css/images/serie3.jpg">
+                    <p><b>Sinopsis:</b> Un carismático y talentoso patólogo forense de la policía de Miami, cuya encantadora personalidad contrasta con su extraña vida nocturna.</p>
+                    <p>Esta serie es sencillamente soberbia y representa un soplo de aire fresco para ése género. El protagonista es un tipo incapaz de tener ningún sentimiento ni respeto por el resto de los humanos, y posee una cualidad innata para despedazar a sus congéneres. Su padrastro policía, sabedor de su secreto, lo instruye desde jovencito para que utilice su tara con fines provechosos. Las interpretaciones son excelentes, para tratarse de una simple serie, y el tal Michael C. Hall sabe recrear magníficamente su personaje. En fin, esta serie es totalmente recomendable por lo diferente de su argumento (el asesino es el chico de la peli), pero advirtiendo que estómagos sensibles o mentes débiles deberían ignorarla, por lo realmente fuertes que resultan todos los capítulos.</p>
+                    <br>
+                    <div id="mi-puntuacion">
+                        <h1>MI PUNTUACIÓN:</h1>
+                        <img src="css/images/estrellas/4-estrellas.png">
+                        <br>
+                    </div>
+                    <h2>OTRAS PUNTUACIONES:</h2>
+                    <br>
+                    <a href="https://www.imdb.com/"><h3>IMDb:</h3> <img src="css/images/estrellas/3-estrellas.png" width="100px" height="20px"></a>
+                    <br>
+                    <a href="https://www.rottentomatoes.com/"><h3>Rotten Tomatoes:</h3> <img src="css/images/estrellas/3-estrellas.png" width="100px" height="20px"></a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/serie4.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>HOUSE OF CARDS</p>
+                    <br>
+                    <a class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/serie5.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>GAME OF THRONES</p>
+                    <br>
+                    <a class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/serie6.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>BREAKING BAD</p>
+                    <br>
+                    <a class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="css/images/serie7.jpg" class="imagen" alt="">
+                <div class="middle">
+                    <p>TWO AND A HALF MEN</p>
+                    <br>
+                    <a class="puntuacion" href="#">Ver puntuación</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p class="lf">Copyright © 2018 <a href="index.html">Cinéfilos</a></p>
+        <p class="rf">Realizado por Martin Alvarez</p>
+    </div>
+    </div>
+</body>
+
+</html>
